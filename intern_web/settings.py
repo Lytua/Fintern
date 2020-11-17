@@ -75,8 +75,8 @@ WSGI_APPLICATION = 'intern_web.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 # connect to mongoDB
+# compass_srv='mongodb+srv://TimLin:tim850606@cluster0.6dwsl.mongodb.net/test',
 connect(name = 'fintern', 
-        #host='mongodb+srv://TimLin:tim850606@cluster0.6dwsl.mongodb.net/test',
         host='mongodb+srv://TimLin:tim850606@cluster0.6dwsl.mongodb.net/fintern?retryWrites=true&w=majority',
         alias = 'default',
         )
